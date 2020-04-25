@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Raleway-light';
+    src: url(../fonts/raleway/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-bold';
+    src: url(../fonts/raleway/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-regular';
+    src: url(../fonts/raleway/Raleway-Regular.ttf);
+}
+
+body {
+  font-family: 'Raleway-light', sans-serif;
+  padding-bottom: 60px;
+  background-color: #222;
+  overflow: hidden auto;
+}
+
+div.back {
+    position: absolute;
+    width: 100%;
+	  height: 100%;
+    background: url(images/img2.html) no-repeat center center fixed; 
+    background-size: cover;
+    opacity: .3;
+    transition: all 2s;
+    transition-timing-function: ease-out;
+}
+
+div.back canvas {
+  width: 100%;
+}
+
+.skills-panel {
+  margin-top: 20px;
+}
+
+  .skills-panel .social-icon {
+    height: 50px;
+    transition: all, .5s;
+    margin-right: 10px;
+  }
+
+  .skills-panel .social-icon:hover {
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+  }
+
+/***CONTAINER***/
+.container {
+  margin: auto;
+  width: 850px;
+  font-size: 20px;
+  color: #ddd;
+}
+
+  .container.main {
+    padding-top: 80px;
+  }
+  
+  .container .span {
+    display: block;
+  }
+
+  .container .page-image {
+    float: left;
+    margin-right: 40px;
+  }
+
+  .container .header-special {
+    font-family: 'Raleway-bold', sans-serif;
+    font-size: 30px;
+  }
+
+    .container .header-special:hover {
+      cursor: default;
+    }
+
+  .container h1 {
+    font-family: 'Raleway-bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #4CA37D;
+    margin: 10px;
+  }
+
+  .container h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #FF7B02;
+    font-weight: normal;
+    margin: 10px;
+  }
+
+  .container ul {
+    list-style: none;
+  }
+
+  .container .window {
+    font-family: sans-serif;
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 800px;
+    height: 740px;
+    background-color: #333;
+    transform-style: preserve-3d;
+    -webkit-box-shadow: 0px 0px 112px -4px rgba(0,0,0,0.77);
+    -moz-box-shadow: 0px 0px 112px -4px rgba(0,0,0,0.77);
+    box-shadow: 0px 0px 112px -4px rgba(0,0,0,0.77);
+  }
+
+    .container .window .window-title {
+      width: 100%;
+      height: 40px;
+      background-color:#FF7B02;
+      color: #222;
+      font-size: 25px;
+      padding-top: 10px;
+      transform: translateZ(40px);
+      -webkit-box-shadow: 0px 16px 34px -4px rgba(0,0,0,0.77);
+      -moz-box-shadow: 0px 16px 34px -4px rgba(0,0,0,0.77);
+      box-shadow: 0px 16px 34px -4px rgba(0,0,0,0.77);
+    }
+
+      .container .window .window-title span {
+        padding-left: 20px;
+      }
+
+    .container .window .code {
+      padding: 20px;
+      line-height: 25px;
+      font-size: 18px;
+      overflow-y: hidden;
+      font-family: 'Lucida Console', Verdana, sans-serif;
+    }
+
+      .container .window .code img {
+        display: block;
+        position: absolute;
+        margin-top: -600px;
+        margin-left: 600px;
+        width: 130px;
+        opacity: .25;
+        transition: all 2s;
+      }
+
+      .container .window .code:hover > img {
+        opacity: .75;
+      }
+
+      .container .window .code span {
+        display: block;
+      }
+
+      .container .window .code span.link {
+        background-color: #444;
+      }
+
+      .container .window .code span.link:hover {
+        cursor: pointer;
+        background-color: #222;
+      }
+
+      .container .window .code span a {
+        font-style: normal;
+        text-decoration: none;
+        color: white;
+        display: block;
+      }
+
+      .container .window .code span.tab1 {
+        padding-left: 40px;
+      }
+
+      .container .window .code span.tab2 {
+        padding-left: 80px;
+      }
+
+      .container .window .code span.tab3 {
+        padding-left: 120px;
+      }
+
+      .container .window .code g {
+        color: #4CA37D;
+      }
+
+      .container .window .code gc {
+        color: #028602;
+      }
+
+      .container .window .code b {
+        color: #007ACC;
+        font-weight: normal;
+      }
+
+      .container .window .code s {
+        color: #DBD98E;
+        text-decoration: none;
+      }
+
+      .container .window .code o {
+        color: #DE6B19;
+      }
